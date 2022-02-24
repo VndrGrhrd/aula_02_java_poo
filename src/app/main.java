@@ -1,7 +1,5 @@
 package app;
-
 import entiti.Calculate;
-
 import java.util.Locale;
 import java.util.Scanner;
 
