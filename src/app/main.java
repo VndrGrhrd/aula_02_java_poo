@@ -11,13 +11,12 @@ public class main {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter radius; ");
+        System.out.print("Enter radius: ");
         double radius = input.nextDouble();
 
-        Calculate c = new Calculate();
-        System.out.printf("Circunferencia: %.2f%n", c.circufence(radius));
-        System.out.printf("Volume: %.2f%n", c.volume(radius));
-        System.out.printf("PI value: %.2f%n", c.PI);
+        System.out.printf("Circumference: %.2f%n", Calculate.circufence(radius));
+        System.out.printf("Volume: %.2f%n", Calculate.volume(radius));
+        System.out.printf("PI value: %.2f%n", Calculate.PI);
 
         input.close();
     }
